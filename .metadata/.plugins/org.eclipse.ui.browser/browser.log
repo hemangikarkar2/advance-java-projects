@@ -1,0 +1,33 @@
+
+Apr 04, 2020 18:17:05.42 NEW SESSION
+Apr 04, 2020 18:17:05.42 [0404/181705.419:ERROR:file_io_win.cc(243)] SetEndOfFile: The requested operation cannot be performed on a file with a user-mapped section open. (0x4C8)
+
+Apr 06, 2020 13:44:56.30 NEW SESSION
+Apr 06, 2020 13:44:56.30 [15164:10640:0406/134456.288:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 06, 2020 14:14:29.75 [15164:10640:0406/141429.755:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 06, 2020 14:38:44.40 [15164:4132:0406/143844.406:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Apr 06, 2020 14:45:09.05 [15164:10640:0406/144509.056:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 06, 2020 17:45:15.60 [15164:13064:0406/174515.608:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 06, 2020 17:45:15.62 [15164:4132:0406/174515.627:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Apr 06, 2020 17:45:19.33 [15164:4132:0406/174519.338:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Apr 06, 2020 17:45:21.19 [15164:10640:0406/174521.189:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -105
+Apr 06, 2020 17:45:25.17 [15164:4132:0406/174525.169:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Apr 07, 2020 11:23:53.60 [2548:2768:0407/112353.605:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 07, 2020 12:06:29.76 [2548:2768:0407/120629.762:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 07, 2020 12:06:33.05 [2548:7528:0407/120633.058:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Apr 07, 2020 12:06:33.06 [2548:7528:0407/120633.063:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Apr 07, 2020 12:47:40.85 [2548:2768:0407/124740.855:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 07, 2020 13:45:24.63 [2548:9928:0407/134524.630:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 07, 2020 16:21:55.79 [2548:2768:0407/162155.797:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 07, 2020 20:58:09.58 [2548:9928:0407/205809.579:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 07, 2020 20:58:09.59 [2548:7528:0407/205809.591:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Apr 07, 2020 20:58:16.48 [2548:2768:0407/205816.485:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -105
+Apr 07, 2020 20:58:16.48 [2548:7528:0407/205816.487:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Apr 07, 2020 21:24:31.09 [2548:2768:0407/212431.089:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 07, 2020 23:47:00.58 [2548:9928:0407/234700.587:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 07, 2020 23:47:07.36 [2548:2768:0407/234707.366:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -105
+Apr 08, 2020 24:55:09.74 [2548:2768:0408/005509.743:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 08, 2020 24:56:21.02 [2548:2768:0408/005621.020:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -21
+
+Apr 10, 2020 16:26:50.71 NEW SESSION
+Apr 10, 2020 16:26:50.71 [0410/162650.707:ERROR:file_io_win.cc(243)] SetEndOfFile: The requested operation cannot be performed on a file with a user-mapped section open. (0x4C8)

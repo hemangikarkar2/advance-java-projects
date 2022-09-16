@@ -1,0 +1,39 @@
+package com.demo1.Dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.demo1.Model.RegisteVO;
+
+@Repository
+public class RegisterDAOImp implements RegisterDAO{
+
+	@Autowired SessionFactory sessionFactory;
+
+	public void insert(RegisteVO registerVo){
+		Session session =this.sessionFactory.getCurrentSession();
+		session.saveOrUpdate(registerVo);
+	}
+	public List search() {
+		Session session =sessionFactory.getCurrentSession();
+		
+		Query q=(Query) session.createQuery("from RegisterVO where status=true");
+		
+		List ls=q.list();
+		return ls;
+	}
+	public List deleteEdit(RegisteVO registerVo){
+		Session session =sessionFactory.getCurrentSession();
+		Query q =session.createQuery("from RegisterVO where status=true and id="+registerVo.getId());
+		List ls=q.list();
+		return ls;
+		
+	}
+	
+}
